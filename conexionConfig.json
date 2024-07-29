@@ -1,0 +1,15 @@
+{
+    "ipbroker" :"192.168.0.134",
+    "portbroker" : "1883",
+    "topicSubsRobot" : ["A3-467/GrupoL/Robot","A3-467/GrupoL/SincRobot"],
+    "topicSubsInterfaz" : ["A3-467/GrupoL/Interfaz","map","A3-467/GrupoL/SincInterfaz"],
+    "topicSendRobot" : ["A3-467/GrupoL/Interfaz","A3-467/GrupoL/SincInterfaz"],
+    "topicSendInterfaz" : ["A3-467/GrupoL/Robot","A3-467/GrupoL/SincRobot"],
+    "separadorMensaje" : ":",
+    "prefijoMensajes" : {   
+                            "mapa":"map",
+                            "pedido":"ped",
+                            "posicion":"pos",
+                            "sinc" : "Sincronizar"
+                        }
+}
